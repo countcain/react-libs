@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "lib": ["es2017", "dom"],
+    "jsx": "react"
+  },
+  "include": ["src/*.ts"],
+  "exclude": [
+    "node_modules"
+  ]
+}
